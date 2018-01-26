@@ -1,6 +1,7 @@
 article {
     background:  #537bbc;
     border: 1px solid black;
+    max-width: 1000px;
 }
 
 * {
@@ -11,7 +12,7 @@ article {
   0% {color: black;}
   50% {color: white;
       border: 1px solid white;
-      border-radius: 20%;}
+      border-radius: 10%;}
 }
 
 a:link {
@@ -33,6 +34,7 @@ header {
 header>h1 {
   margin-left: 10px;
   text-align: center;
+  font-size: 30pt;
 }
 
 header>h2 {
@@ -43,11 +45,13 @@ header>h2 {
 section.main {
   margin-left: 10px;
   margin-right: 10px;
-  min-height: 300px;
+  min-height: 350px;
 }
 
 p {
   text-indent: 2em;
+  font-size: 12pt;
+  line-height: 1.5em;
 }
 
 section.sources {
@@ -55,6 +59,7 @@ section.sources {
   margin-right: 0px;
   border: 5px solid #cc0e0e;
   background-color: #537bbc;
+  float: inherit;
 }
 
 img {
@@ -71,3 +76,5 @@ section.sources>h2 {
   margin-top: 10px;
   margin-left: 10px;
 }
+
+/*(Format citations, do reflection questions, and figure out scale or just leave it as is. Make sure everything in the instructions is covered, though.)
