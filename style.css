@@ -46,6 +46,7 @@ section.main {
   margin-left: 10px;
   margin-right: 10px;
   min-height: 350px;
+  background-color: #537bbc;
 }
 
 p {
@@ -55,8 +56,8 @@ p {
 }
 
 section.sources {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 1px;
+  margin-right: 1px;
   border: 5px solid #cc0e0e;
   background-color: #537bbc;
   float: inherit;
@@ -76,5 +77,3 @@ section.sources>h2 {
   margin-top: 10px;
   margin-left: 10px;
 }
-
-/*(Format citations, do reflection questions, and figure out scale or just leave it as is. Make sure everything in the instructions is covered, though.)
